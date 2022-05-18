@@ -1,5 +1,9 @@
-class Conta:
+from Src.ProjectPy.Account.ClasseAbstrata import ContaAbstrata
+
+
+class Conta(ContaAbstrata):
     def __init__(self, numero):
+        super().__init__(numero)
         self.__numero = numero
         self.__saldo = 0
 
