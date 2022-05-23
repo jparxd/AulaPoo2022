@@ -1,4 +1,4 @@
-from conta import Conta
+from Src.ProjectPy.Account.Account import Conta
 
 
 class CriarConta:
@@ -8,3 +8,4 @@ class CriarConta:
         conta.creditar(500.87)
         conta.debitar(45.00)
         print(conta.get_saldo())
+
